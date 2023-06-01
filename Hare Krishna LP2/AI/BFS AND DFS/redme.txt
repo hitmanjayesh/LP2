@@ -1,0 +1,21 @@
+
+Uninformed Search: 
+The uninformed search does not contain any domain knowledge such as closeness, the location of the goal. It operates in a brute-force way as it only includes information about how to traverse the tree and how to identify leaf and goal nodes. Uninformed search applies a way in which search tree is searched without any information about the search space like initial state operators and test for the goal, so it is also called blind search.It examines each node of the tree until it achieves the goal node
+
+Informed Search: 
+Informed search algorithms use domain knowledge. In an informed search, problem information is available which can guide the search. Informed search strategies can find a solution more efficiently than an uninformed search strategy. Informed search is also called a Heuristic search.
+A heuristic is a way which might not always be guaranteed for best solutions but guaranteed to find a good solution in reasonable time.
+
+Heuristic Search
+It includes Blind Search, Uninformed Search, and Blind control strategy. These search techniques are not always possible as they require much memory and time. These techniques search the complete space for a solution and use the arbitrary ordering of operations.
+The examples of Direct Heuristic search techniques include Breadth-First Search (BFS) and Depth First Search (DFS).
+Weak Heuristic Search techniques in AI
+It includes Informed Search, Heuristic Search, and Heuristic control strategy. These techniques are helpful when they are applied properly to the right types of tasks. They usually require domain-specific information.
+The examples of Weak Heuristic search techniques include Best First Search (BFS) and A*.
+Before describing certain heuristic techniques, let's see some of the techniques listed below:
+Bidirectional Search
+A* search
+Simulated Annealing
+Hill Climbing
+Best First search
+Beam search
